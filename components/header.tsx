@@ -1,13 +1,14 @@
 import Image from "next/image";
-import { navMenus } from "@/data/list";
+
+import { appConfig, navMenus } from "@/config/app";
 
 export function Header() {
 	return (
 		<header className="w-full bg-white">
 			<div className="container mx-auto flex items-center justify-between px-4 py-6">
 				<Image
-					src={"/logo-njs.png"}
-					alt={"Logo Pondok Pesantren Nurul Jadid Sejati"}
+					src={appConfig.logo}
+					alt={appConfig.name}
 					className="object-fit w-40 lg:w-96"
 					width={2000}
 					height={430}

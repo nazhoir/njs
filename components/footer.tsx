@@ -1,5 +1,4 @@
-import { institutions, legals, menus } from "@/data/list";
-
+import { institutions, legals, menus } from "@/config/app";
 import { LogoWordMark } from "@/components/logo";
 
 export function Footer() {
@@ -39,7 +38,7 @@ export function Footer() {
 					</div>
 
 					<div className="lg:col-span-3">
-						<div className="font-bold">Tentang</div>
+						<div className="font-bold">Legal</div>
 						<ol className="mt-6 list-disc pl-8">
 							{legals.map(({ name }, idx) => (
 								<li key={idx}>{name}</li>

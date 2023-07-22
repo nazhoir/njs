@@ -7,7 +7,9 @@ export function SectionTwou() {
 				<div className="mx-auto h-72 w-72 rounded-t-full bg-emerald-700 md:h-[40rem] md:w-[40rem]"></div>
 
 				<Image
-					src={"/banner-2.png"}
+					src={
+						"https://res.cloudinary.com/ddt4zhjm5/image/upload/c_fit,h_900/v1690012539/PP.%20NURUL%20JADID%20SEJATI/banner-2_uredfx.png"
+					}
 					alt={"Logo Pondok Pesantren Nurul Jadid Sejati"}
 					className="object-fit absolute  bottom-0 w-[53rem]"
 					width={3679}
@@ -22,10 +24,12 @@ export function SectionTwou() {
 						dalam Berilmu
 					</h2>
 					<p className="mt-4 font-medium">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Architecto excepturi enim odio quas adipisci laboriosam
-						consequuntur ipsam nemo doloremque quo, saepe vitae nam atque
-						obcaecati fugiat. Vitae consequuntur ea eaque.
+						Kami mengutamakan integrasi dan interkoneksi ilmu. Dengan
+						pendekatan holistik, kami memadukan disiplin ilmu secara kreatif,
+						membangun pola pikir yang luas dan analitis. Melalui proses ini,
+						kami membuka peluang untuk menggali potensi tersembunyi dan
+						menciptakan pemimpin masa depan yang berpikiran terbuka dan
+						inovatif.
 					</p>
 				</div>
 			</div>

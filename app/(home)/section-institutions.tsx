@@ -1,21 +1,24 @@
 import Image from "next/image";
-import { institutions } from "@/data/list";
+
+import { institutions } from "@/config/app";
 
 export function SectionInstitutions() {
 	return (
-		<div className="space-y-10 py-40">
-			<h2 className="text-center text-7xl font-bold">Lembaga Pendidikan</h2>
-			<div className="grid grid-cols-3 gap-10">
+		<div className="px-4 py-20  lg:px-0 lg:py-40">
+			<h2 className="text-center text-4xl font-bold md:text-7xl">
+				Lembaga Pendidikan
+			</h2>
+			<div className="mt-10 grid gap-5 md:grid-cols-2 md:gap-10 lg:grid-cols-3">
 				{institutions.map(({ logo, name }, idx) => (
 					<div className="group flex items-center space-x-4" key={idx}>
 						<Image
 							src={logo}
 							alt={`Logo ${name}`}
-							className="object-fit w-32 grayscale group-hover:grayscale-0"
+							className="object-fit w-20 grayscale group-hover:grayscale-0 md:w-32"
 							width={300}
 							height={300}
 						/>
-						<h3 className="text-3xl font-bold ">{name}</h3>
+						<h3 className="text-xl font-bold md:text-3xl ">{name}</h3>
 					</div>
 				))}
 			</div>

@@ -3,12 +3,14 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Epilogue } from "next/font/google";
 
+import { appConfig } from "@/config/app";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 
 export const metadata: Metadata = {
-	title: "Pondok Pesantren Nurul Jadid Sejati",
-	description: "Pondok Pesantren Nurul Jadid Sejati",
+	title: appConfig.name,
+	description: appConfig.description,
+	icons: appConfig.icon,
 };
 
 const epilogue = Epilogue({ subsets: ["latin"] });
