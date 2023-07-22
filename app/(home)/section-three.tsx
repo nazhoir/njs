@@ -10,9 +10,7 @@ export function SectionThree() {
 						Perilaku
 					</h2>
 					<p className="mt-4 font-medium">
-						Pondok Pesantren Nurul Jadid Sejati merupakan lembaga pendidikan
-						di mana berbudi luhur menjadi pijakan utama dalam perilaku. Kami
-						berkomitmen membentuk generasi unggul dengan nilai-nilai moral
+						Kami berkomitmen membentuk generasi unggul dengan nilai-nilai moral
 						yang kuat, seperti integritas, empati, dan kerjasama. Dengan
 						lingkungan belajar yang peduli dan inspiratif, kami membimbing
 						siswa untuk menjadi pribadi yang bertanggung jawab, berempati, dan

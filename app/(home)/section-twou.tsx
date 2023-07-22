@@ -24,8 +24,7 @@ export function SectionTwou() {
 						dalam Berilmu
 					</h2>
 					<p className="mt-4 font-medium">
-						Kami mengutamakan integrasi dan interkoneksi ilmu. Dengan
-						pendekatan holistik, kami memadukan disiplin ilmu secara kreatif,
+						Dengan pendekatan holistik, kami memadukan disiplin ilmu secara kreatif,
 						membangun pola pikir yang luas dan analitis. Melalui proses ini,
 						kami membuka peluang untuk menggali potensi tersembunyi dan
 						menciptakan pemimpin masa depan yang berpikiran terbuka dan
