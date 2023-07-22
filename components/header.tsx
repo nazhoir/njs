@@ -2,6 +2,8 @@ import Image from "next/image";
 
 import { appConfig, navMenus } from "@/config/app";
 
+import { NavSidebar } from "./nav-sidebar";
+
 export function Header() {
 	return (
 		<header className="w-full bg-white">
@@ -20,10 +22,11 @@ export function Header() {
 							<li key={idx}>{name}</li>
 						))}
 					</ul>
-					<button className="rounded-full bg-emerald-700 px-12 py-2 text-emerald-50">
+					<button className="rounded-full bg-emerald-700 px-6 py-2 text-emerald-50 lg:px-12">
 						Daftar
 					</button>
 				</div>
+				<NavSidebar />
 			</div>
 		</header>
 	);
