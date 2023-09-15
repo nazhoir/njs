@@ -70,10 +70,6 @@ const institutions = [
 		name: "TPA Nurul Jadid Sejati",
 		logo: "/manjs.png",
 	},
-	{
-		name: "MTsN 1 Ngawi",
-		logo: "/manjs.png",
-	},
 ];
 
 export { appConfig, menus, navMenus, legals, institutions };

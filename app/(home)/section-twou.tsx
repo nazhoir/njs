@@ -24,11 +24,11 @@ export function SectionTwou() {
 						dalam Berilmu
 					</h2>
 					<p className="mt-4 font-medium">
-						Dengan pendekatan holistik, kami memadukan disiplin ilmu secara kreatif,
-						membangun pola pikir yang luas dan analitis. Melalui proses ini,
-						kami membuka peluang untuk menggali potensi tersembunyi dan
-						menciptakan pemimpin masa depan yang berpikiran terbuka dan
-						inovatif.
+						Dengan pendekatan holistik, kami memadukan disiplin ilmu secara
+						kreatif, membangun pola pikir yang luas dan analitis. Melalui
+						proses ini, kami membuka peluang untuk menggali potensi
+						tersembunyi dan menciptakan pemimpin masa depan yang berpikiran
+						terbuka dan inovatif.
 					</p>
 				</div>
 			</div>

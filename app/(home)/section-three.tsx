@@ -10,8 +10,8 @@ export function SectionThree() {
 						Perilaku
 					</h2>
 					<p className="mt-4 font-medium">
-						Kami berkomitmen membentuk generasi unggul dengan nilai-nilai moral
-						yang kuat, seperti integritas, empati, dan kerjasama. Dengan
+						Kami berkomitmen membentuk generasi unggul dengan nilai-nilai
+						moral yang kuat, seperti integritas, empati, dan kerjasama. Dengan
 						lingkungan belajar yang peduli dan inspiratif, kami membimbing
 						siswa untuk menjadi pribadi yang bertanggung jawab, berempati, dan
 						siap menghadapi tantangan dunia dengan kepribadian yang mulia.
