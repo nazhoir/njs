@@ -8,7 +8,7 @@ export function Footer() {
         <div className="max-w-3xl">
           <LogoWordMark />
           <p>
-            Let's reach academic achievements, foreign languange skills and
+            Let&apos;s reach academic achievements, foreign languange skills and
             classic book reading ability
           </p>
         </div>
