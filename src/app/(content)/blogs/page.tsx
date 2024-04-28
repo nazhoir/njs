@@ -1,18 +1,18 @@
 import { Metadata } from "next";
 import Link from "next/link";
 
-import { getAnnouncementPosts } from "@/server/announcement";
+import { getBlogPosts } from "@/server/blog";
 import { CardPost } from "@/components/card-post";
 
 export const metadata: Metadata = {
-  title: "Pengumuman | PP Nurul Jadid Sejati",
+  title: "Blog | PP Nurul Jadid Sejati",
 };
 export default function Page() {
-  let allAnnouncements = getAnnouncementPosts();
+  let allBlogs = getBlogPosts();
   return (
     <section className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-      {allAnnouncements.map(({ metadata, slug }, idx) => (
-        <Link key={idx} href={`/announcements/${slug}`}>
+      {allBlogs.map(({ metadata, slug }, idx) => (
+        <Link key={idx} href={`/blogs/${slug}`}>
           <CardPost {...metadata} />
         </Link>
       ))}

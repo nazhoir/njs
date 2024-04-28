@@ -4,7 +4,7 @@ import { format } from "date-fns";
 import { id as IDN } from "date-fns/locale";
 
 import { getBlogPosts } from "@/server/blog";
-import BlurImage from "@/components/blur-image";
+import { BlurImage } from "@/components/blur-image";
 import { CustomMDX } from "@/components/mdx";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
@@ -34,7 +34,7 @@ export async function generateMetadata({
       description,
       type: "article",
       publishedTime,
-      url: `https://postren.id/blog/${post.slug}`,
+      url: `https://njs.or.id/blogs/${post.slug}`,
       images: [
         {
           url: ogImage,

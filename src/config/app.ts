@@ -25,7 +25,7 @@ const menus: AppLink[] = [
   },
   {
     title: "Blog",
-    href: "/blog",
+    href: "/blogs",
   },
   {
     title: "Pengumuman",
@@ -49,7 +49,7 @@ const navMenus: AppLink[] = [
   },
   {
     title: "Blog",
-    href: "/blog",
+    href: "/blogs",
   },
   {
     title: "Pengumuman",

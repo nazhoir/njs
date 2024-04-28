@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { MDXRemote } from "next-mdx-remote/rsc";
 
-import BlurImage from "./blur-image";
+import { BlurImage } from "./blur-image";
 
 function CustomLink(props: any) {
   let href = props.href;
