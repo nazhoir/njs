@@ -27,8 +27,8 @@ export function NavSidebar() {
             <X />
           </button>
           <ul className="items-center space-y-4 ">
-            {navMenus.map(({ name }, idx) => (
-              <li key={idx}>{name}</li>
+            {navMenus.map(({ title }, idx) => (
+              <li key={idx}>{title}</li>
             ))}
           </ul>
         </div>
