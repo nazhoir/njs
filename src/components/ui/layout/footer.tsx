@@ -1,6 +1,6 @@
 import { LogoWordMark } from "@/components/logo";
 import { institutions, legals, menus } from "@/config/app";
-
+import Link from "next/link"
 export function Footer() {
   return (
     <footer className="rounded-t-[3rem] bg-emerald-700 text-emerald-100 lg:rounded-t-[5rem]">
@@ -21,35 +21,62 @@ export function Footer() {
 
           <div className="col-span-2 lg:col-span-4">
             <div className="font-bold">Lembaga Pendidikan</div>
-            <ol className="mt-6 list-disc pl-4 lg:pl-8">
-              {institutions.map(({ name }, idx) => (
-                <li key={idx}>{name}</li>
+            <ul className="mt-6">
+              {institutions.map(({ name, href }, idx) => (
+                <li key={idx}>
+                  <a
+                    href={href ? href : "#"}
+                    target={href ? "_blank" : "_top"}
+                    title={name}
+                    className="hover:underline"
+                  >
+                    {name}
+                  </a>
+                </li>
               ))}
-            </ol>
+            </ul>
           </div>
 
           <div className="lg:col-span-2">
             <div className="font-bold">Tentang</div>
-            <ol className="mt-6 list-disc pl-8">
-              {menus.map(({ title }, idx) => (
-                <li key={idx}>{title}</li>
+            <ul className="mt-6">
+              {menus.map(({ title, href, external }, idx) => (
+                <li key={idx}>
+                  <Link href={href} title={title} target={external ? "_blank" : "_top"} className="hover:underline">
+                  {title}
+                  </Link>
+                  </li>
               ))}
-            </ol>
+            </ul>
           </div>
 
           <div className="lg:col-span-3">
             <div className="font-bold">Legal</div>
-            <ol className="mt-6 list-disc pl-8">
-              {legals.map(({ title }, idx) => (
-                <li key={idx}>{title}</li>
+            <ul className="mt-6">
+              {legals.map(({ title, href, external }, idx) => (
+                <li key={idx}>
+                  <Link href={href} title={title} target={external ? "_blank" : "_top"} className="hover:underline">
+                  {title}
+                  </Link>
+                  </li>
               ))}
-            </ol>
+            </ul>
           </div>
         </div>
 
         <div className="mt-32 flex flex-col items-center justify-between text-center lg:flex-row lg:text-left">
-          <p>Didukung dan ditenagai oleh Diskresi</p>
-          <p>Hak cipta &copy; 2023 Pondok Pesantren Nurul Jadid Sejati</p>
+          <p>
+            Didukung dan ditenagai oleh{" "}
+            <span>
+              <a href="https://www.postren.id/" target="_blank">
+                Postren
+              </a>
+            </span>
+          </p>
+          <p>
+            Hak cipta &copy; {new Date().getFullYear()} Pondok Pesantren Nurul
+            Jadid Sejati
+          </p>
         </div>
       </div>
     </footer>

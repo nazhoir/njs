@@ -13,7 +13,7 @@ const appConfig: AppConfig = {
 const menus: AppLink[] = [
   {
     title: "Profil",
-    href: "/profil",
+    href: "/profile",
   },
   {
     title: "Visi",
@@ -36,8 +36,8 @@ const menus: AppLink[] = [
     href: "/contact",
   },
   {
-    title: "PPDB",
-    href: "/ppbd",
+    title: "Pendaftaran",
+    href: "https://psb.njs.or.id/",
     external: true,
   },
 ];
@@ -80,6 +80,7 @@ const institutions: Institution[] = [
   {
     name: "MA Nurul Jadid Sejati",
     logo: "/manjs.png",
+    href:"https://manjs.sch.id/"
   },
   {
     name: "MDT Nurul Jadid Sejati",

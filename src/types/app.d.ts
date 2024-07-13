@@ -15,5 +15,5 @@ export type AppLink = {
 export type Institution = {
   name: string;
   logo: string;
-  website?: string;
+  href?: string;
 };
